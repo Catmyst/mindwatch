@@ -19,20 +19,106 @@ body{
 }
 
 #titleDiv{
+    left: 10px;
     position: absolute;
     top: 10px;
-    left: 10px;
 }
-#userAndMood{
+#usernameDiv{
+    left: 10px;
     position: absolute;
-    top: 58px;
-    left: 10px;
-}
-#userAndMood h1{
-    font-weight: 400;
+    top: 100px;
+
 }
 #moodDiv{
     position: absolute;
-    top: 58px;
+    right: 10px;
+    top: 100px;
+}
+#heartLevel{
+    position: absolute;
+    top: 200px;
+}
+#gsrLevel{
+    position: absolute;
+    top: 350px;
+}
+#sweatLevel{
+    position: absolute;
+    top: 500px;
+}
+#mood{
+    position: absolute;
+    top: 650px;
+}
+
+.tab{
+    height: 100px;
+    left: 2vw;
+    position: absolute;
+    width: 96vw;
+    border: 3px solid #dee4ed;
+    border-radius: 20px;
+}
+.tabIcon{
+    height: 80px;
     left: 10px;
+    position: relative;
+    top: 10px;
+    width: 80px;
+}
+.tabDesc{
+    left: 100px;
+    top: -90px;
+    position: relative;
+}
+.tabVal{
+    top: -150px;
+    position: relative;
+    right: -70vw;
+}
+.tabSubVal{
+    top: -170px;
+    position: relative;
+    right: -70vw;
+    font-weight: 200;
+}
+.moodtab{
+    height: 750px;
+}
+.moodDesc{
+    top: 100px;
+}
+.normalText{
+    font-weight: 400;
+}
+.emote{
+    position: relative;
+    left: 10px;
+    font-size:80px;
+    margin-bottom: -120px;
+}
+.emoteVal{
+    top: -80px;
+    position: relative;
+    right: -70vw;
+}
+.emoteSubVal{
+    top: -100px;
+    position: relative;
+    right: -70vw;
+    font-weight: 200; 
+}
+.emoteOverall{
+    position:relative;
+    top: 0px;
+    left: 10px;
+}
+.emoteOverallEmoji, .emoteOverallVal{
+    position: relative;
+    left: 200px;
+    top: -120px;
+}
+.emoteOverallVal{
+    left: 220px;
+    top: -30px;
 }
