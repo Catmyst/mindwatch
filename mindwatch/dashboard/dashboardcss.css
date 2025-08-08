@@ -115,12 +115,12 @@ body{
 }
 .emoteOverallEmoji, .emoteOverallVal{
     position: relative;
-    left: 200px;
-    top: -120px;
+    left: 70vw;
+    top: -200px;
 }
 .emoteOverallVal{
-    left: 220px;
-    top: -30px;
+    left: calc(72vw);
+    top: -100px;
 }
 
 #check{
