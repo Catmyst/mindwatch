@@ -122,3 +122,22 @@ body{
     left: 220px;
     top: -30px;
 }
+
+#check{
+    border: 3px solid #dee4ed;
+    background-color: #ADD8E6;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 160px;
+    width: 200px;
+    left: 10px;
+}
+#check:active{
+    animation: blink 0.2s linear; 
+}
+@keyframes blink {
+    0%   { background-color: #3976bc; }
+    50%  { background-color: #28588f; }
+    100% { background-color: #3976bc; }
+  }
