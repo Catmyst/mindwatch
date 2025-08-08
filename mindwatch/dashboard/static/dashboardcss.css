@@ -18,6 +18,15 @@ body{
     margin: 0 10px 0 10px;
 }
 
+#cameraFeed{
+    position: absolute;
+    top: 200px;
+    left: 5vw;
+    width: 90vw;
+    height: 56.25vw;
+    border: 5px solid black;
+    border-radius: 50px;
+}
 #titleDiv{
     left: 10px;
     position: absolute;
@@ -36,19 +45,19 @@ body{
 }
 #heartLevel{
     position: absolute;
-    top: 200px;
+    top: calc(250px + 56.25vw);
 }
 #gsrLevel{
     position: absolute;
-    top: 350px;
+    top: calc(350px + 56.25vw);
 }
 #sweatLevel{
     position: absolute;
-    top: 500px;
+    top: calc(450px + 56.25vw);
 }
 #mood{
     position: absolute;
-    top: 650px;
+    top: calc(550px + 56.25vw);
 }
 
 .tab{
@@ -72,18 +81,15 @@ body{
     position: relative;
 }
 .tabVal{
-    top: -150px;
+    top: -130px;
     position: relative;
     right: -70vw;
 }
 .tabSubVal{
-    top: -170px;
+    top: -150px;
     position: relative;
     right: -70vw;
     font-weight: 200;
-}
-.moodtab{
-    height: 750px;
 }
 .moodDesc{
     top: 100px;
@@ -94,7 +100,7 @@ body{
 .emote{
     position: relative;
     left: 10px;
-    font-size:80px;
+    font-size:70px;
     margin-bottom: -120px;
 }
 .emoteVal{
@@ -116,7 +122,7 @@ body{
 .emoteOverallEmoji, .emoteOverallVal{
     position: relative;
     left: 70vw;
-    top: -200px;
+    top: -190px;
 }
 .emoteOverallVal{
     left: calc(72vw);
